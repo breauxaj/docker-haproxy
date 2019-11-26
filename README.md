@@ -1,6 +1,6 @@
-# nodejs
+# haproxy
 
-Alpine + NodeJS + Yarn
+Alpine + HAProxy
 
 License
 -------
