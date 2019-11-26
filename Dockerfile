@@ -1,8 +1,6 @@
 FROM breauxaj/alpine:latest
 
-RUN apk update && apk upgrade \
-  && apk add haproxy \
-  && rm -rf /var/cache/apk/*
+RUN apk add haproxy
 
 COPY entrypoint.sh /entrypoint.sh
 
