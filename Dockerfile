@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM breauxaj/alpine:latest
 
 RUN apk update && apk upgrade \
   && apk add haproxy \
